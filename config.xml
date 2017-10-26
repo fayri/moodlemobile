@@ -21,7 +21,7 @@
 
     <preference name="android-minSdkVersion" value="5" />
 
-    <!--<preference name="phonegap-version" value="6.1.2" />-->
+    <preference name="phonegap-version" value="cli-6.1.2" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -75,8 +75,8 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
 
-    <!--<gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />-->
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
     <gap:plugin name="org.apache.cordova.file" />
